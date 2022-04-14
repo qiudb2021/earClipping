@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/qiudb2021/earClipping/issues"
   },
-  "homepage": "https://github.com/qiudb2021/earClipping#readme"
+  "homepage": "https://github.com/qiudb2021/earClipping#readme",
+  "devDependencies": {
+    "graphical": "^1.0.4"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.24"
+  }
 }
