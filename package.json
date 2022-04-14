@@ -1,0 +1,20 @@
+{
+  "name": "earClipping",
+  "version": "1.0.0",
+  "description": "将简单多边形转换成一组由同样顶点组成的三角形集合\r ****\r [Triangulation by Ear Clipping](https://blog.csdn.net/u012871784/article/details/50418817)\r ****\r ## 简单多边形定义：\r 1. 由一组**有序的n个顶点**(v<sub>0</sub>,v<sub>1</sub>,...,v<sub>n-1</sub>)组成的\r 2. 相邻顶点之间通过边($v_i$,v<sub>i+1</sub>)(0≤i≤n-2)相连\r 3. 边(v<sub>n-1</sub>,v<sub>0</sub>)连接起始点\r 4. 每个顶点被两条边所共享，而边的所有交点都是顶点。\r    ![图1](images/1.png)\r ****\r ## 判断方法\r 一个n边形有n条边，每条边只需要和其他的n-3条不相邻边判断是否相交即可。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiudb2021/earClipping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiudb2021/earClipping/issues"
+  },
+  "homepage": "https://github.com/qiudb2021/earClipping#readme"
+}
