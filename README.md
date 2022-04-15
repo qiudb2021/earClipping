@@ -2,6 +2,10 @@
 将简单多边形转换成一组由同样顶点组成的三角形集合
 ****
 [Triangulation by Ear Clipping](https://blog.csdn.net/u012871784/article/details/50418817)
+
+[Polygon Area](https://mathworld.wolfram.com/PolygonArea.html)
+
+[determining-the-winding-of-a-polygon-given-as-a-set-of-ordered-points](https://www.element84.com/blog/determining-the-winding-of-a-polygon-given-as-a-set-of-ordered-points)
 ****
 ## 简单多边形定义：
 1. 由一组**有序的n个顶点**(v<sub>0</sub>,v<sub>1</sub>,...,v<sub>n-1</sub>)组成的
